@@ -30,20 +30,6 @@
         .font-adlam{
             font-family:  "ADLaM Display", serif;
         }
-        #div1 {
-        width: 200px;
-        height: 200px;
-        font-weight: bold;
-        position: relative;
-        animation: mymove 5s;
-        animation-fill-mode: forwards;
-    }
-    
-    #div1 {animation-timing-function:ease-in-out;}
-    @keyframes mymove {  
-      from {left: 140px;}
-      to {left: 940px;}
-    }
     </style>
 </head>
 <header>
@@ -75,11 +61,11 @@
 </header>
 <body class="">
 
-        <div id="div1" class=""><img src="images/cat-big.png" alt=""></div>
+
     
         <!-- Banner section -->
 
-<section  class=" mb-24 ">
+<section  class="mt-10 mb-24 ">
     <div class="w-4/5 mx-auto">        
         <div class="lg:absolute sm:flex-col">     
             <h2 class="font-adlam font-normal text-4xl" >Pamper Your Pet,<br> Because They Deserve <br> the Bes
@@ -94,6 +80,10 @@
         </div>
     </div>
 </section>
+            <!-- Extra section -->
+
+
+
     <!-- pets browsing section -->
 <main class=" w-4/5 mx-auto mb-24">
 
@@ -106,35 +96,73 @@
 
         <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/dog-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
-        <div class="bg-bg-card card-body items-center text-center rounded-lg ">
+        <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/fish-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
-        <div class="bg-bg-card card-body items-center text-center rounded-lg">
+        <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/cat-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
-        <div class="bg-bg-card card-body items-center text-center rounded-lg">
+        <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/bird-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
-        <div class="bg-bg-card card-body items-center text-center rounded-lg">
+        <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/mouse-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
-        <div class="bg-bg-card card-body items-center text-center rounded-lg">
+        <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/rabbit-cartoon.png" alt="">
-            <h6>Dog</h6>
-            <small>3 items</small>
+            <h6 class="font-bold text-xl">Dog</h6>
+            <small class="font-medium text-lg">3 items</small>
         </div>
     </div>
+</main>
+
+<main class="w-4/5 mx-auto mb-24">
+    <div class="mb-8">
+        <h2  class="font-adlam">Food for pets</h2>
+    </div>
+    <div class="lg:flex justify-between gap-6
+                sm: grid grid-cols-2">
+        
+        <div class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img  src="images/Food/bird food.png" alt="">
+            <h5 class="font-bold text-xl">Bird Food</h5>
+        </div>
+        <div  class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img src="images/Food/cat food .png" alt="">
+            <h5 class="font-bold text-xl">Cat <br> Food</h5>
+        </div>
+        <div  class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img src="images/Food/dog food .png" alt="">
+            <h5 class="font-bold text-xl">Dog Food</h5>
+        </div >
+        <div  class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img src="images/Food/fish food .png" alt="">
+            <h5 class="font-bold text-xl">Fish Food</h5>
+        </div>
+        <div  class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img src="images/Food/mouse food.png" alt="">
+            <h5 class="font-bold text-xl">Mouse Food</h5>
+        </div>
+        <div  class="w-48 h-48 items-center text-center bg-amber-200 rounded-xl p-8">
+            <img src="images/Food/rabbit food.png" alt="">
+            <h5 class="font-bold text-xl">Rabbit Food</h5>
+        </div>
+    </div>
+</main>
+
+<main>
+    <marquee behavior="" direction="right" ></marquee>
 </main>
      
         <!-- pets trending section -->
@@ -300,6 +328,6 @@
 
     </div>
 
-</footer>       
+</footer> 
 </body>
 </html>
