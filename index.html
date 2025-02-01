@@ -30,7 +30,20 @@
         .font-adlam{
             font-family:  "ADLaM Display", serif;
         }
-       
+        #div1 {
+        width: 200px;
+        height: 200px;
+        font-weight: bold;
+        position: relative;
+        animation: mymove 5s;
+        animation-fill-mode: forwards;
+    }
+    
+    #div1 {animation-timing-function:ease-in-out;}
+    @keyframes mymove {  
+      from {left: 150px;}
+      to {left: 950px;}
+    }
     </style>
 </head>
 <header>
@@ -61,9 +74,12 @@
 
 </header>
 <body class="">
+
+        <div id="div1" class=""><img src="images/cat-big.png" alt=""></div>
+    
         <!-- Banner section -->
 
-<section  class="mt-10 mb-24 ">
+<section  class=" mb-24 ">
     <div class="w-4/5 mx-auto">        
         <div class="lg:absolute sm:flex-col">     
             <h2 class="font-adlam font-normal text-4xl" >Pamper Your Pet,<br> Because They Deserve <br> the Bes
@@ -86,7 +102,7 @@
     </div>
 
     <div class=" lg:flex justify-between gap-6 
-                sm:w-4/5 mx-auto grid grid-cols-2">
+                sm: grid grid-cols-2">
 
         <div class="bg-bg-card card-body items-center text-center  rounded-lg">
             <img class="bg-[#FFFFFF] rounded-full w-12 p-3" src="images/dog-cartoon.png" alt="">
@@ -145,7 +161,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/fish-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -153,7 +169,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/bird-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -161,7 +177,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/rabbit-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -169,7 +185,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/bird-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -177,7 +193,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/pet-couch.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -185,7 +201,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/fish-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -193,7 +209,7 @@
                 </div>
             </div>
             <div class="flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/pet-couch.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -201,7 +217,7 @@
                 </div>
             </div>
             <div class=" flex items-center bg-[#FFFFFf] border border-gray-200 rounded-lg p-4 gap-5">
-                <img class=" p-2 bg-secondary rounded-xl" src="images/dog-cartoon.png" alt="">
+                <img class=" p-2 bg-secondary rounded-xl" src="images/rabbit-cartoon.png" alt="">
                 <div>
                     <i class="fa-solid fa-star "></i><span class="font-normal text-sm">4.5</span>
                     <h5 class="font-medium text-sm">Pet Bed</h5>
@@ -235,10 +251,9 @@
         </div>
     </div>
 </main>
-        <!-- awesome news section -->
 
 <footer class="bg-yellow-200 z-50 relative">
-
+<!-- awesome news section -->
     <main class="lg:w-full  absolute -top-60 z-50 sm:hero-content text-center ">
         <div class="hero bg-base-200 w-4/5 mx-auto bg-[#FFF9F4] rounded-2xl">
             <div class="hero-content flex-col lg:flex-row">
@@ -258,7 +273,7 @@
         </div>
     </main>
 
-
+<!-- footer section -->
     <div class="lg:flex  justify-between items-center pt-80 pb-40 w-4/5 mx-auto">
         <div class=" ">
             <div class="flex"><img src="images/logo-footer.png" alt="cats footprint ">
@@ -285,36 +300,6 @@
 
     </div>
 
-</footer>
-       
+</footer>       
 </body>
-        <!-- footer section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
